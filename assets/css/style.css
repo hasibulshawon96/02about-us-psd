@@ -160,12 +160,20 @@ h3{
 			cover overlay CSS End
 *****************************************************************
 /*****************************************************************
-			AboutUS CSS Start
+			Massage from principal CSS Start
 ******************************************************************/
-
+.background-academy{
+	background: url('../img/academy/academy.png');
+	/*background-size: cover;*/
+}
+.aboutUsImag{
+	margin-top: 50px;
+    margin-bottom: -25px;
+    margin-left: -80px;
+}
 
 /*****************************************************************
-			AboutUS CSS End
+			Massage from principal CSS End
 ******************************************************************/
 /*****************************************************************
 			Course CSS Start
