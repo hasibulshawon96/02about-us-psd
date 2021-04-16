@@ -61,7 +61,35 @@ ul{
 /*****************************************************************
 			Owl Carousel CSS Start
 ******************************************************************/
+.card-hover:hover{
+	border-color: #56ab2f !important;
+}
+.custom-text-owl{
+	border:1px solid #56ab2f !important;
+}
+.custom-body-owl{
+	border:1px solid #56ab2f !important;
+}
+.owl-carousel .owl-nav button.owl-next,
+.owl-carousel .owl-nav button.owl-prev{
+	font-size: 35px;
+   	color: #000022;
 
+}
+.owl-carousel .owl-nav button.owl-next:hover,
+.owl-carousel .owl-nav button.owl-prev:hover{
+	color: #fff !important;
+	background-color: #56ab2f;
+	height: 40px;
+	width: 40px;
+	border-radius: 0%;
+	
+}
+.owl-carousel .owl-nav button.owl-next:focus,
+.owl-carousel .owl-nav button.owl-prev:focus{
+	background-color: transparent;
+	outline: none; 
+}
 /*****************************************************************
 			Owl Carousel CSS End
 ******************************************************************/
