@@ -35,10 +35,10 @@ body{
 	font-family: 'Open Sans', sans-serif !important;
 }
 a{
-	text-decoration: none;
+	text-decoration: none !important;
 }
 a:hover{
-	text-decoration: none;
+	text-decoration: none !important;
 }
 ul{
 	list-style: none;
@@ -106,12 +106,59 @@ padding-right: 10px;
 			Header CSS End
 ******************************************************************/
 /*****************************************************************
-			Slider CSS Start
+			cover overlay CSS Start
 ******************************************************************/
+.cover-image{
+	background: url('../img/cover overlay/02_About.png') no-repeat;
+	height: 250px;
+	position: relative;
+
+}
+.cover-text li:first-child::after{
+    content: "/" !important;
+    color: white !important;
+    position: relative;
+	left: -116px;
+	bottom: -31px;
+	z-index: 1;
+}
+.cover-text a:hover{
+    color: #56ab2f !important;
+}
+.cover-text a{
+	position: relative;
+	left: -120px;
+	bottom: -30px;
+
+}
+
+.custom-cover{
+	background: url('../img/cover overlay/02_About.png') no-repeat;
+	color: #fff;
+	height: 250px;
+	width:100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+}
+.color-overlay{
+	background: #33231d;
+	height: 100%;
+	width: 100%;
+	opacity: .3;
+	position: absolute;
+}
+h3{
+	z-index: 1;
+}
+.cover-a {
+	z-index: 1;
+}
 
 /*****************************************************************
-			Slider CSS End
-******************************************************************/
+			cover overlay CSS End
+*****************************************************************
 /*****************************************************************
 			AboutUS CSS Start
 ******************************************************************/
