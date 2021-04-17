@@ -90,6 +90,29 @@ ul{
 	background-color: transparent;
 	outline: none; 
 }
+.icon-bar {
+  width: 50px;
+  height: 295px;
+  background-color:  #56ab2f;
+}
+.icon-bar a {
+  display: block;
+  text-align: center;
+  padding: 10px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 25px;
+}
+.active {
+  background-color: #555;
+}
+.icon-bar a:hover {
+  background-color: #000;
+}
+.image-card1{
+	background: url('../img/slide/teacher 01.png') no-repeat;
+	height: 295px;
+}
 /*****************************************************************
 			Owl Carousel CSS End
 ******************************************************************/
