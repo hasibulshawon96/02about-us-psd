@@ -227,12 +227,32 @@ h3{
 			Massage from principal CSS End
 ******************************************************************/
 /*****************************************************************
-			Course CSS Start
+			CTA  CSS Start
 ******************************************************************/
+.cta-email{
+	width: 30%;
+    height: 45px;
+    background: transparent;
+    border: 1px solid #fff;
+    outline: none;
+    color: #fff;
+    padding-left: 10px;
+}
 
+.cta-button{
+	padding-top: 9px;
+    padding-bottom: 8px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: -3px;
+    outline: 2px solid rgba(255,255,255,.5);
+}
+::placeholder{
+	color: #fff;
+}
 
 /*****************************************************************
-			Course CSS End
+			CTA  CSS End
 ******************************************************************/
 /*****************************************************************
 			Facts CSS Start
